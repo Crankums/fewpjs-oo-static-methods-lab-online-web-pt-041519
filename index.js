@@ -9,6 +9,7 @@ class Formatter {
   }
 
   static titleize(string) {
+<<<<<<< HEAD
     let strSplit = string.split(' ')
     let titleFirst = strSplit[0]
     const skips = ['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
@@ -24,5 +25,8 @@ class Formatter {
       }
     })
     return newArr.join(' ')
+=======
+    let strSplit = string.split('')
+>>>>>>> a962db967dc4e0c0ed0764f1bdfb3fa2c921841d
   }
 }
